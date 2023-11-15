@@ -1,0 +1,17 @@
+                            /* So sánh bộ nhớ Stack và Heap */ 
+
+1. Khổi động
+    Stack là bộ nhớ được cấp phát sẵn khi chương trình khởi động
+    Heap được cấp phát linh động khi có yêu cầu
+
+2. Dung lượng
+    Stack có dung lượng bộ nhớ nhỏ (thường là 1MB)
+    Heap có kích thước linh động, phụ thuộc vào yêu cầu cấp phát
+
+3. Cấu trúc 
+    Stack tuân theo cấu trúc FILO (first in last out)
+    Heap không có cấu trúc
+
+4. Khả năng thu hồi
+    Stack có khả năng thu hồi lại vùng nhớ (Có thể sau khi thoát khỏi scope v.v.)
+    Heap không có khả năng thu hồi ==> thường được lưu trữ các dữ liệu có tính xuyên suốt quá trình 

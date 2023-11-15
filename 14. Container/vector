@@ -1,0 +1,16 @@
+
+
+vector là một loại cấu trúc dữ liệu đặc biệt 
+Tương đồng với array tuy nhiên có một vài yếu tố khác biệt là 
+    => Lưu trên heap 
+    => không cần phải khai báo số lương phần tử 
+    => Còn được gọi là dynamic array 
+
+Cách thức khai báo trong Cpp 
+    #include <vector>
+
+
+    std::vector <kieu du lieu> ten_bien; 
+    hoặc 
+    std::vector <kieu du lieu> ten_bien = {1,3,4,5};        // Có thể khai báo bằng Initialize listed
+     

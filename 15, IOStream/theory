@@ -1,0 +1,9 @@
+
+
+    Về bản chất Input của một program C/C++ là standard Input Stream bao gồm input bởi console và file ngoài ra còn có thêm input từ network 
+                OUtput của program sẽ là console 
+
+    Dối với C++, std::cout và std::cin là những object của C++ với >> và << là các operator, khác với C thì printf() và scanf là các lệnh 
+
+
+    
